@@ -5,10 +5,6 @@ Captura=input("Ingrese palabra a evaluar:")
 Torcido= "".join(reversed(Captura))
 #Se realiza la condicion se quitan espacios si existen para asegurar la palabra 
 if Captura.replace(" ","")==Torcido.replace(" ",""):
-<<<<<<< HEAD
-    print("La palabra "+ Captura + "Si Es palindroma")
-=======
     print("La palabra "+ Captura + " Puede palindroma")
->>>>>>> feature/QuintoFeature
 else: 
     print("La palabra "+ Captura + " No es palindroma")
